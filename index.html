@@ -32,12 +32,20 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        p {
+            color: rgba(19, 19, 24, 0.60);
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        
     </style>
 
 </head>
 
 <body class="font-manrope">
-    <header>
+    <header class="container mx-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -73,8 +81,8 @@
         </div>
 
         <!-- slider or carousel start-->
-
-        <div class="carousel w-full lg:relative">
+        <section class="relative ">
+        <div class="carousel w-full ">
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="Images/1.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -96,25 +104,54 @@
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
             </div>
-        </div>
-        <div class=" text-white rounded-2xl  font-family p-8 bg-gray-900 lg:w-[566px] lg:h-[165px] lg:text-2xl font-extrabold lg:absolute  bottom-20 right-20">
-        <div class="lg:py-2">
-            <h2>Enjoy the game live</h2>
-        </div>
-            <p class="lg:text-base lg:font-medium">Click the get ticket button to collect tickets quickly.</p>
-        </div>
+        
+
+        <div class="absolute  sm:top-96 lg:right-28 sm:right-28  sm:w-[335px] lg:h-[165px] lg:w-[566px] px-8 p-8 rounded-lg bg-gray-900 text-white font-family font-extrabold">
+
+            <h2 class="py-4 font-extrabold text-2xl">Enjoy the game live</h2>
+            <h5 class="lg:text-base lg:font-medium text-slate-100 ">Click the get ticket button to collect tickets quickly.</h5>
+            </div>
+        
+       </div>
+        
+    </section>
         <!-- slider end and propesional hokckey club start-->
-
-        <section>
-
-
+    </header>
+    <main class="container mx-auto">
+        <section class="text-center my-20">
+            <div class="">
+                <div class="pb-28">
+                    <h2 class="text-4xl font-extrabold py-5">Professional Hockey club</h2>
+                    <div>
+                        <p class="text-xl font-medium">Our club strives to do good by providing the following facilities.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="font-manrope grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="">
+                    <div class="radial-progress text-red-500" style="--value:70;" role="progressbar">87%</div>
+                    <h4 class="font-semibold text-xl py-2">Prayer Facility</h4>
+                    <p class="text-base font-normal text-gray-900">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-green-400" style="--value:95;" role="progressbar">95%</div>
+                    <h4 class="font-semibold text-xl py-2 ">Experienced Coach</h4>
+                    <p class="text-base font-normal text-gray-900">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%</div>
+                    <h4 class="font-semibold text-xl py-2">Senior Player</h4>
+                    <p class="text-base font-normal text-gray-900">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-teal-400" style="--value:80;" role="progressbar">80%</div>
+                    <h4 class="font-semibold text-xl py-2">Training Ground</h4>
+                    <p class="text-base font-normal text-gray-900">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
         </section>
 
 
-
-
-    </header>
-    <main>
 
     </main>
     <footer>
